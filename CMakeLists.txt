@@ -16,6 +16,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LedControl.msg"
   "msg/LedData.msg"
+  "msg/GeneralCommand.msg"
+  "msg/ConpanelLedControl.msg"
+  "msg/ConpanelBuzzerControl.msg"
 )
 # ---
 
