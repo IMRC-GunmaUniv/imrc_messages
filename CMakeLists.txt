@@ -21,6 +21,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ConpanelBuzzerControl.msg"
 
   "srv/ProgressInfo.srv"
+  "srv/GoalPosition.srv"
+
+  "action/BoxCommand.action"
+  "action/BallColor.action"
 )
 # ---
 
