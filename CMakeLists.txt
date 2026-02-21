@@ -20,9 +20,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ConpanelLedControl.msg"
   "msg/ConpanelBuzzerControl.msg"
   "msg/RobotActionProgress.msg"
-
+  "msg/BallInfo.msg"
+  
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
+  "srv/BallCancel.srv"
 
   "action/BoxCommand.action"
   "action/BallColor.action"
