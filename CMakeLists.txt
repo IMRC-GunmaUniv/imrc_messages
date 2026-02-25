@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ConpanelBuzzerControl.msg"
   "msg/RobotActionProgress.msg"
   "msg/BallInfo.msg"
+  "msg/WallInfo.msg"
   
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
