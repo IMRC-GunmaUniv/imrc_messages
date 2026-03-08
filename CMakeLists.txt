@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GoalPosition.srv"
   "srv/BallCancel.srv"
   "srv/IndexSelect.srv"
+  "ResetMissBall.srv"
 
   "action/BoxCommand.action"
   "action/BallColor.action"
