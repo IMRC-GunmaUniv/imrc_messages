@@ -22,11 +22,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotActionProgress.msg"
   "msg/BallInfo.msg"
   "msg/WallInfo.msg"
+  "msg/MissBallInfo.msg"
   
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
   "srv/BallCancel.srv"
   "srv/IndexSelect.srv"
+  "srv/ResetMissBall.srv"
 
   "action/BoxCommand.action"
   "action/BallColor.action"

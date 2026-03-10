@@ -5,8 +5,7 @@ float32 distance_y
 string angle_direction
 float32 angle
 ---
-float32 current_distance
-float32 current_angle
+
 string success
 ---
 float32 current_distance
