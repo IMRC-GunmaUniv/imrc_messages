@@ -33,6 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/BoxCommand.action"
   "action/BallColor.action"
   "action/TiltAdjustment.action"
+  "action/Rotate.action"
 )
 # ---
 
