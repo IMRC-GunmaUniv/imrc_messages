@@ -1,0 +1,15 @@
+# Goal
+float64 target_x    # map座標系 [m]
+float64 target_y    # map座標系 [m]
+float64 target_yaw  # map座標系 [deg]
+bool    skip_yaw    # trueなら姿勢制御をスキップ
+---
+# Result
+string success
+---
+# Feedback
+float64 current_x
+float64 current_y
+float64 current_yaw
+float64 dist_remaining
+float64 yaw_error_deg
