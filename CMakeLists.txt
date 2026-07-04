@@ -24,15 +24,20 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WallInfo.msg"
   "msg/FourWheel.msg"
   "msg/SwerveRotate.msg"
-  
+  "msg/MissBallInfo.msg"
+  "msg/EcanCommand.msg"
+
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
   "srv/BallCancel.srv"
   "srv/IndexSelect.srv"
+  "srv/ResetMissBall.srv"
 
   "action/BoxCommand.action"
   "action/BallColor.action"
   "action/TiltAdjustment.action"
+  "action/Rotate.action"
+  "action/LinearMove.action"
 )
 # ---
 

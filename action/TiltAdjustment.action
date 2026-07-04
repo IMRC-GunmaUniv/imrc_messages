@@ -1,8 +1,11 @@
-float32 target_distance
-float32 target_angle
+string direction_x
+float32 distance_x
+string direction_y
+float32 distance_y
+string angle_direction
+float32 angle
 ---
-float32 current_distance
-float32 current_angle
+
 string success
 ---
 float32 current_distance
