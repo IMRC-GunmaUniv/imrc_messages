@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotActionProgress.msg"
   "msg/BallInfo.msg"
   "msg/WallInfo.msg"
+  "msg/FourWheel.msg"
+  "msg/SwerveRotate.msg"
   
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
