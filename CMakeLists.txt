@@ -23,7 +23,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BallInfo.msg"
   "msg/WallInfo.msg"
   "msg/MissBallInfo.msg"
-  
+  "msg/EcanCommand.msg"
+  "msg/LCU.msg"
+  "msg/PCU.msg"
+  "msg/RU.msg"
+
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
   "srv/BallCancel.srv"
