@@ -1,0 +1,6 @@
+string field_color
+int8 ball_no
+---
+bool success
+---
+string current_state

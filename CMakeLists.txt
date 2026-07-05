@@ -26,6 +26,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SwerveRotate.msg"
   "msg/MissBallInfo.msg"
   "msg/EcanCommand.msg"
+  "msg/LCU.msg"
+  "msg/PCU.msg"
+  "msg/RU.msg"
 
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
@@ -38,6 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TiltAdjustment.action"
   "action/Rotate.action"
   "action/LinearMove.action"
+  "action/Seki.action"
 )
 # ---
 
