@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotActionProgress.msg"
   "msg/BallInfo.msg"
   "msg/WallInfo.msg"
+  "msg/FourWheel.msg"
+  "msg/SwerveRotate.msg"
   "msg/MissBallInfo.msg"
   "msg/EcanCommand.msg"
   "msg/LCU.msg"
@@ -41,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Rotate.action"
   "action/LinearMove.action"
   "action/Seki.action"
+  "action/TouInjection.action"
 )
 # ---
 

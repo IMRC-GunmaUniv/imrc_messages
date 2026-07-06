@@ -1,0 +1,6 @@
+string field_color
+---
+bool success
+---
+string target
+string state
