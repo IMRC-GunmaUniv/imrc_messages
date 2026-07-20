@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PCU.msg"
   "msg/RU.msg"
   "msg/Circle.msg"
+  "msg/MotorControl.msg"
 
   "srv/ProgressInfo.srv"
   "srv/GoalPosition.srv"
