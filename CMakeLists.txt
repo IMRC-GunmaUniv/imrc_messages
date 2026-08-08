@@ -39,6 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ResetMissBall.srv"
   "srv/FieldColor.srv"
   "srv/StringRequest.srv"
+  "srv/BrockOperate.srv"
 
   "action/BoxCommand.action"
   "action/BallColor.action"
