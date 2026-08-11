@@ -1,5 +1,5 @@
 string field_color
-int8 ball_no
+string position
 ---
 bool success
 ---
