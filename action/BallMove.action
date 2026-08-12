@@ -1,0 +1,8 @@
+string mode
+float32 ball_no
+float32 target_distance
+---
+string success
+---
+float32 current_err_distance
+float32 current_err_angle

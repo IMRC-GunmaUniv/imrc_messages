@@ -46,8 +46,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TiltAdjustment.action"
   "action/Rotate.action"
   "action/LinearMove.action"
-  "action/Seki.action"
+  "action/TargetPosition.action"
   "action/TouInjection.action"
+  "action/BallMove.action"
 )
 # ---
 

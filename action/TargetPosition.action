@@ -1,5 +1,6 @@
 string field_color
 string position
+string details
 ---
 bool success
 ---
