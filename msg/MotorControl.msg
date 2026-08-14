@@ -1,2 +1,3 @@
 string target
-string param
+string task
+int32 value
