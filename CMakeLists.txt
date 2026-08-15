@@ -38,6 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/IndexSelect.srv"
   "srv/ResetMissBall.srv"
   "srv/FieldColor.srv"
+  "srv/CastlePosition.srv"
+  "srv/NullRequestString.srv"
   "srv/StringRequest.srv"
   "srv/FloatRequest.srv"
   "srv/BrockOperate.srv"
