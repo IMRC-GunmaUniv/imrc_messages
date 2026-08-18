@@ -1,0 +1,28 @@
+string direction_x
+float32 distance_x
+string direction_y
+float32 distance_y
+string angle_direction
+float32 angle
+
+float32 kp_x
+float32 ki_x
+float32 kd_x
+float32 kp_y
+float32 ki_y
+float32 kd_y
+float32 kp_z
+float32 ki_z
+float32 kd_z
+
+float32 max_v
+float32 max_z
+
+float32 timeout
+float32 dist_tolerance
+---
+
+string success
+---
+float32 current_distance
+float32 current_angle
