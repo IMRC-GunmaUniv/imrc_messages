@@ -20,6 +20,7 @@ float32 max_z
 
 float32 timeout
 float32 dist_tolerance
+float32 angle_tolerance
 ---
 
 string success
