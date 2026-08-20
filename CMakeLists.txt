@@ -52,7 +52,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TargetPosition.action"
   "action/TouInjection.action"
   "action/BallMove.action"
+<<<<<<< HEAD
   "action/PoseGoal.action"
+=======
+  "action/PositionAdjustment.action"
+>>>>>>> a07ba89ea18681b7ceede6762072a40099de7ad0
 )
 # ---
 
